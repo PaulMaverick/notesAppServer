@@ -13,7 +13,7 @@ import { requiresAuth } from "./middleware/auth";
 const app = express();
 
 app.use(cors({
-    origin: 'https://paulmaverick.github.io/notesAppClient/',
+    origin: 'https://paulmaverick.github.io',
     methods: ['GET', 'POST', 'PATCH', 'DELETE'],
     credentials: true
 }));
